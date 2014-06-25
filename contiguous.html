@@ -1,0 +1,28 @@
+### Largest contiguous array
+
+I was reading a list of popular interview questions: http://www.ocf.berkeley.edu/~kelu/interviews/questions.html
+
+One of them caught my eye. Actually, at the time of my writing this, I've only made it this far down the list
+as I had to stop and try to solve it.
+
+The question is:
+
+"Given an array of positive and negative integers. Find the starting index and length of sub-array with the largest sum. 
+
+Can be done in linear time with constant memory."
+
+It's not a question I've seen before and the answer didn't immediately jump to mind. So how do we go about solving it?
+
+There is a good clue above in that it can be solved in linear time. The means we're likely going to want to be solving in
+something like a single pass.
+
+What kind of information can be deduce from what we know?
+* sub-arrays have to be contiguous
+* the array may include negative numbers as the next number along might more than make up for it. e.g. 3, 2, -2, 7.
+  in this case it's worth taking the -2 to gather up the positive 7.
+* we need to keep track of the best sum we've found so far as well as some indexes and counts
+* if we sum the items in the current sub-array and it comes to less than 0, we know that we've gone too far
+* the array contains both positive and negative integers which means that it must have a length and that 
+  the final result must be greater than 0
+
+At this point I had an inkling of what 
