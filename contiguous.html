@@ -25,4 +25,48 @@ What kind of information can be deduce from what we know?
 * the array contains both positive and negative integers which means that it must have a length and that 
   the final result must be greater than 0
 
-At this point I had an inkling of what 
+At this point I had an inkling of what the answer would look like;
+(1) Loop through the numbers keeping track of the `currentSum` and `maxSum`
+(2) if the `currentSum` is positive then keep going
+(3) if the `currentSum` is bigger than `maxSum` then update `maxSum`
+(4) if the current sum is less than 0 we set it back to 0 and reset
+(5) keeping the index and length of the sub-array adds a little book keeping but doesn't change the algorithm
+
+That's not exactly exhaustive but it's enough to start writing some code. The specifics will likely sort themselves
+out during the implementation.
+
+I wrote it in Javascript as I had a browser open:
+
+var nums = [-4, 3, 0, -1, -6, 4, 5, -2, 3, -1, 2, -5, 4];
+var currentMax = 0;
+var currentCount = 0;
+var currentStartIndex = 0;
+var bestMax = 0;
+var bestCount = 0;
+var bestStartIndex = 0;
+
+for (var i = 0; i < nums.length; i++) {
+  var n = nums[i];
+  currentMax += n;
+  if (currentMax > 0) {
+    if (currentCount === 0) {
+      currentStartIndex = i;
+    }
+    ++currentCount;
+    if (currentMax > bestMax) {
+      bestMax = currentMax;
+      bestStartIndex = currentStartIndex
+      bestCount = currentCount;
+    }
+  } else {
+    currentMax = 0;
+    currentCount = 0;
+  }
+}
+
+The answer ends up in the best* variables.
+
+A fun little question, the fact that we could treat going below 0 as an invalid answer turned out to be key. This meant
+we could cleanly reset when this happened.
+
+TODO: how does this look in clojure?
