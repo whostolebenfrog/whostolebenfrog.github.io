@@ -11,3 +11,5 @@ Basics of using emacs with emacs live and getting set up
 More solving basic interview questions in JS and clojure
 How we test, thoughts on best testing practices
 Useful libaries and tricks for using them
+How to write a simple dynamic website with clojure
+--- how to deploy it?
