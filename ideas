@@ -5,6 +5,7 @@
 --- A script to process a spreadsheet
 Who I am
 --- What I do, where I work, what we do at work
+Why everyone should have their own klink
 Who we introduced clojure at mixradio
 How I work with the repl in a file
 Basics of using emacs with emacs live and getting set up
@@ -15,3 +16,4 @@ How to write a simple dynamic website with clojure
 --- how to deploy it?
 Thoughts on Go
 --- lack of good abstraction, collections annoying (nothing akin to iterable), there are places where I'd use it but not enough
+How to deploy clojars from scratch onto a blank server
