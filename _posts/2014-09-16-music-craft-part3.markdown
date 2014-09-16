@@ -61,6 +61,7 @@ Next up was adding some texture to the cube. I ended up doing this with java int
         model-mat (material :set texture-attr)
         ...snip...
 {% endhighlight %}
+<br>
 
 `raw-texture` loads the file as a resource before creating a libgdx `FileHandle` which is passed to the texture.
 
@@ -80,6 +81,7 @@ As you might be able to gather from the code above I addeda block function that 
              z (range (- grid-size) grid-size 2)]
          (block x 0 z))))
 {% endhighlight %}
+<br>
 
 ### how does it look?
 
