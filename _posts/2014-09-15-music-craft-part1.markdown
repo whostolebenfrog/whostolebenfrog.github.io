@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Hack Week project: generating a 3D block world from music"
+title:  "Hack Week project: music-craft part-1. Getting started"
 date:   2014-09-15 10:09:23
 categories: games
 ---

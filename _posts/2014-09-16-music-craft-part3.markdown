@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Hack Week project: music-craft part-3. Textures and movement."
+title:  "Hack Week project: music-craft part-3. Textures and movement"
 date:   2014-09-16 12:09:23
 categories: games
 ---

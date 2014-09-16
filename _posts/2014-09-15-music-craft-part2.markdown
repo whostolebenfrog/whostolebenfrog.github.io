@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Hack Week project: music-craft part-2. Rendering."
+title:  "Hack Week project: music-craft part-2. Rendering"
 date:   2014-09-15 10:09:23
 categories: games
 ---
