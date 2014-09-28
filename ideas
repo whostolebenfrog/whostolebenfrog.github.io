@@ -20,3 +20,5 @@ How to deploy clojars from scratch onto a blank server
 
 Non blog ideas
 --- how about a library that allows you to bind metrics to functions at run time?
+--- lein cdo
+--- emacs plugin to dynamically add deps to namespaces and projects if not present. Reloads for you. Allows fuzzy searching.
