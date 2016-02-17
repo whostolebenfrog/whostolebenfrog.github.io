@@ -1,0 +1,46 @@
+---
+layout: post
+title:  "Ben Griffiths CV"
+date:   2016-02-17 16:02:00
+categories: cv
+---
+
+# Ben Griffiths CV
+
+I am an experienced software developer having recently worked in Clojure, System design, microservices, aws.
+
+## Core skills
+* Clojure, Java
+* Javascript, scripting
+* Microservices
+* REST
+* Kafka, SQS and queue based systems
+* AWS
+* Scaleable systems and high availability
+* Linux
+
+## Work experience
+
+### MixRadio
+
+* 2nd generation deployment tooling
+* Microservices
+* Eventful
+* Jagus and authentication
+* Analytics pipeline
+
+### Target Harlosh
+
+Working predominantly as a Java developer developing a software system that allowed business analysts to create bespoke insurance systems.
+* Java
+* Spring
+* Hibernate (actually with multiple DBs)
+* Javascript, HTML, CSS
+
+### Accenture
+
+During my time at Accenture I worked on a number of projects in Java, Javascript and HTML largely at the Discovery Channel. I introduced version control into their engineering team and helped to modernise their approach to frontend software development.
+
+## Education
+
+* MEng Computer Software Engineering, University of Sheffield 2.1 Hons [2001 - 2005]
