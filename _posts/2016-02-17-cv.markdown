@@ -16,20 +16,42 @@ I am an experienced software developer having recently worked in Clojure, System
 * REST
 * Kafka, SQS and queue based systems
 * AWS
-* Scaleable systems and high availability
+* Scalable systems and high availability
 * Linux
 
 ## Work experience
 
-### MixRadio
+### MixRadio, Microsoft, Nokia
 
-* 2nd generation deployment tooling
-* Microservices
-* Eventful
+This period of employment covers three employers:
+* MixRadio: April 2015 - Present
+* Microsoft: April 2014 - April 2015
+* Nokia: Jan 2012 - April 2014
+
+#### Microservices
+* Not sure if this is a useful section
+* Created clojure template
+* Lots of design of SoA
+
+#### Continuous delivery system
+* Helped design and implement 2nd generation continuous delivery system allowing quick and simple deployments of Microservices into AWS
+  * Model based loosely on the netflix approach using machine images as the deployable artifact
+* Built the AMI baking service based on packer, puppet and yum
+* Built the command line tool that interacts with the deployment services to allow deployments. Written in Go it was cross compiled to various platforms and auto-updated itself when new versions were released
+
+#### Analytics pipeline
+* Based on a kafka pub-sub architecture
+* Designed and built many of the components and worked on the project from it's first prototype in MongoDB 
+* Data flows into many parts of the organisation from Microservices to map reduce jobs and into our redshift data warehouse
+* Most recently redesigned the data analytics and warehouse service into a clean queue based architecture to fix some long standing state based issues and allow data to be imported hourly rather than daily.
+
+#### Authentication and authorisation
 * Jagus and authentication
-* Analytics pipeline
 
-### Target Harlosh
+#### Recruitment and mentoring
+* Recruitment, mentoring and team building
+
+### Target Harlosh: 2008 - 2011
 
 Working predominantly as a Java developer developing a software system that allowed business analysts to create bespoke insurance systems.
 * Java
@@ -37,7 +59,7 @@ Working predominantly as a Java developer developing a software system that allo
 * Hibernate (actually with multiple DBs)
 * Javascript, HTML, CSS
 
-### Accenture
+### Accenture: 2006 - 2008
 
 During my time at Accenture I worked on a number of projects in Java, Javascript and HTML largely at the Discovery Channel. I introduced version control into their engineering team and helped to modernise their approach to frontend software development.
 
