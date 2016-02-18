@@ -5,18 +5,22 @@ date:   2016-02-17 16:02:00
 categories: cv
 ---
 
-# Ben Griffiths CV
+# Ben Griffiths
 
-I am an experienced software developer having recently worked in Clojure, System design, microservices, aws.
+Email: mrbengriffiths@gmail.com
+Github: github.com/whostolebenfrog
+Linkedin: uk.linkedin.com/in/wsbfg
 
-## Core skills
-* Clojure, Java
-* Javascript, scripting
+An enthusiastic Clojure developer with 10 years commercial experience developing software and building robust systems. I'm particularly interested in high availability and scalability, microservices, functional programming and building great programming teams. I'm looking for a challenging role working with talented people to solve interesting problems.
+
+## Technical Summary
+
+* Clojure, Java, Javascript, scripting
 * Microservices
-* REST
+* REST, JSON, HTTP
+* Scalable systems and high availability
 * Kafka, SQS and queue based systems
 * AWS
-* Scalable systems and high availability
 * Linux
 
 ## Work experience
@@ -28,16 +32,16 @@ This period of employment covers three employers:
 * Microsoft: April 2014 - April 2015
 * Nokia: Jan 2012 - April 2014
 
-#### Microservices
-* Not sure if this is a useful section
-* Created clojure template
-* Lots of design of SoA
+During my time at MixRadio I've worked on a variety of systems initially in Java before [helping to introduce Clojure](https://skillsmatter.com/skillscasts/3891-clojure-at-nokia-entertainment#video) in mid 2012.
 
-#### Continuous delivery system
-* Helped design and implement 2nd generation continuous delivery system allowing quick and simple deployments of Microservices into AWS
-  * Model based loosely on the netflix approach using machine images as the deployable artifact
-* Built the AMI baking service based on packer, puppet and yum
-* Built the command line tool that interacts with the deployment services to allow deployments. Written in Go it was cross compiled to various platforms and auto-updated itself when new versions were released
+##### Key Responsibilities
+* Building Clojure Microservices that powered the music service
+* Designing software, systems and taking responsibility for the overall health of our architecture
+* Mentoring, one-to-one's and developing the team
+* Recruitment, conference sponsorship and shaping the new starter process
+* Monitoring the health of the platform and responding to serious live issues and availability drops
+* Helping to improve the organisation and how we work
+* Developing and supporting the continuous delivery system
 
 #### Analytics pipeline
 * Based on a kafka pub-sub architecture
@@ -45,11 +49,15 @@ This period of employment covers three employers:
 * Data flows into many parts of the organisation from Microservices to map reduce jobs and into our redshift data warehouse
 * Most recently redesigned the data analytics and warehouse service into a clean queue based architecture to fix some long standing state based issues and allow data to be imported hourly rather than daily.
 
+#### Continuous delivery system
+* Helped design and implement MixRadio's second generation continuous delivery system allowing quick and simple deployments of Microservices into AWS.
+  * Model based loosely on the netflix approach using machine images as the deployable artifact
+* Built the AMI baking service based on packer, puppet and yum
+* Built the command line tool that interacts with the deployment services to allow deployments. Written in Go it was cross compiled to various platforms and auto-updated itself when new versions were released
+* Created clojure template
+
 #### Authentication and authorisation
 * Jagus and authentication
-
-#### Recruitment and mentoring
-* Recruitment, mentoring and team building
 
 ### Target Harlosh: 2008 - 2011
 
@@ -62,6 +70,7 @@ Working predominantly as a Java developer developing a software system that allo
 ### Accenture: 2006 - 2008
 
 During my time at Accenture I worked on a number of projects in Java, Javascript and HTML largely at the Discovery Channel. I introduced version control into their engineering team and helped to modernise their approach to frontend software development.
+
 
 ## Education
 
