@@ -10,10 +10,12 @@ categories: cv
 # Ben Griffiths
 
 Email: mrbengriffiths@gmail.com
+
 Github: github.com/whostolebenfrog
+
 Linkedin: uk.linkedin.com/in/wsbfg
 
-An enthusiastic Clojure developer with 10 years commercial experience developing software and building robust systems. I'm particularly interested in high availability and scalability, microservices, functional programming and building great programming teams. I'm looking for a challenging role working with talented people to solve interesting problems.
+An enthusiastic Clojure developer with 10 years commercial experience developing software and building robust systems. I'm particularly interested in high availability, scalability, microservices, functional programming and building great programming teams. I'm looking for a challenging role working with talented people to solve interesting problems.
 
 ## Technical Summary
 
@@ -21,9 +23,9 @@ An enthusiastic Clojure developer with 10 years commercial experience developing
 * Microservices
 * REST, JSON, HTTP
 * Scalable systems and high availability
-* Kafka, SQS and queue based systems
-* AWS
-* Linux
+* Kafka and queue based systems
+* AWS, EC2, DynamoDB, SQS, Redshift
+* Linux, Devlops, Git, scripting, vim, emacs
 
 ## Work experience
 
@@ -34,45 +36,52 @@ This period of employment covers three employers:
 * Microsoft: April 2014 - April 2015
 * Nokia: Jan 2012 - April 2014
 
-During my time at MixRadio I've worked on a variety of systems initially in Java before [helping to introduce Clojure](https://skillsmatter.com/skillscasts/3891-clojure-at-nokia-entertainment#video) in mid 2012.
+During my time at MixRadio I've worked on a variety of systems: initially with Java before [helping to introduce Clojure](https://skillsmatter.com/skillscasts/3891-clojure-at-nokia-entertainment#video) in mid 2012.
 
 ##### Key Responsibilities
-* Building Clojure Microservices that powered the music service
+* Building Clojure Microservices that powered the music platform
 * Designing software, systems and taking responsibility for the overall health of our architecture
-* Mentoring, one-to-one's and developing the team
-* Recruitment, conference sponsorship and shaping the new starter process
 * Monitoring the health of the platform and responding to serious live issues and availability drops
-* Helping to improve the organisation and how we work
 * Developing and supporting the continuous delivery system
+* Recruitment, conference sponsorship and helping new starters
+* Mentoring, one-to-ones and developing the team
+* Helping to improve the organisation and how we worked
 
 #### Analytics pipeline
+
+The analytics pipeline takes music, navigation and usage events from millions of clients daily and makes them available to many services and data analytics systems.
+
 * Based on a kafka pub-sub architecture
 * Designed and built many of the components and worked on the project from it's first prototype in MongoDB 
 * Data flows into many parts of the organisation from Microservices to map reduce jobs and into our redshift data warehouse
-* Most recently redesigned the data analytics and warehouse service into a clean queue based architecture to fix some long standing state based issues and allow data to be imported hourly rather than daily.
+* Most recently redesigned the data analytics and warehouse service into a clean queue based event architecture to remove service state, improve reliability and massively reduce the time taken to reach redshift
 
 #### Continuous delivery system
-* Helped design and implement MixRadio's second generation continuous delivery system allowing quick and simple deployments of Microservices into AWS.
-  * Model based loosely on the netflix approach using machine images as the deployable artifact
-* Built the AMI baking service based on packer, puppet and yum
-* Built the command line tool that interacts with the deployment services to allow deployments. Written in Go it was cross compiled to various platforms and auto-updated itself when new versions were released
-* Created clojure template
 
-#### Authentication and authorisation
-* Jagus and authentication
+* Helped design and implement MixRadio's second generation continuous delivery system allowing quick and simple deployments of Microservices into AWS.
+* Based loosely on the Netflix approach using machine images as the deployable artifact
+* Built the [AMI baking service](https://github.com/mixradio/mr-baker) based on packer, puppet and yum
+* Built the [command line tool](https://github.com/mixradio/klink) that interacts with the deployment services and acts as a frontend to deployments. Written in Go it was cross compiled to various platforms and auto-updates itself when new versions are released
+* Created the [Clojure service template](https://github.com/mixradio/mr-clojure) that allowed new services to be quickly bootstrapped
+* The whole system allows a new service to be created and deployed into dev and production in under 30 minutes and averages around 40 deployments a day
+
+#### Some other systems worked on
+
+* Designed and built the authentication, authorization and token management system
+* Worked to shape and build the homescreen service which recommended mixes and created a homescreen feed tailored to a users tastes. Completed with much success against an extremely challenging deadline and design brief
+* Re-design of a reporting data flow into a distributed queue based system across data centres
+* CRM system and integration
 
 ### Target Harlosh: 2008 - 2011
 
-Working predominantly as a Java developer developing a software system that allowed business analysts to create bespoke insurance systems.
-* Java
-* Spring
-* Hibernate (actually with multiple DBs)
-* Javascript, HTML, CSS
+Working in the R&D department as a Java and frontend developer building a software system that allowed client business analysts to create bespoke insurance and financial systems.
+* Java, Spring core, Spring webflow
+* Hibernate with multiple databases supported depending on client requirements
+* Javascript, jQuery, HTML, CSS
 
 ### Accenture: 2006 - 2008
 
 During my time at Accenture I worked on a number of projects in Java, Javascript and HTML largely at the Discovery Channel. I introduced version control into their engineering team and helped to modernise their approach to frontend software development.
-
 
 ## Education
 
