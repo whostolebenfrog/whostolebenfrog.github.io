@@ -33,12 +33,12 @@ An enthusiastic Clojure developer with 10 years commercial experience developing
 ## Technical Summary
 
 * Clojure, Java, Javascript, others
-* Microservices, distributed systems
+* Micro-services, distributed systems
 * REST, JSON, HTTP
 * Scalable systems and high availability
 * Kafka, queues, asynchronous programming 
 * AWS, EC2, DynamoDB, SQS, EMR, Redshift, IAM
-* Linux, Devops, Git, scripting, vim, emacs
+* Linux, Devops, Git, scripting, Vim, Emacs
 
 ## Work experience
 
@@ -53,9 +53,9 @@ This period of employment covers three employers:
 During my time at MixRadio I've worked on a variety of systems: initially with Java before [helping to introduce Clojure](https://skillsmatter.com/skillscasts/3891-clojure-at-nokia-entertainment#video) in mid 2012.
 
 #### Key Responsibilities
-* Building Clojure microservices that powered the music platform
+* Building Clojure micro-services that powered the music platform
 * Designing software, systems and taking responsibility for the overall health of our architecture
-* Monitoring the health of the platform (graphite, logstash, kibana) and responding to live issues
+* Monitoring the health of the platform (Graphite, Logstash, Kibana) and responding to live issues
 * Developing and supporting the continuous delivery system
 * Recruitment, conference sponsorship and helping new starters
 * Mentoring, one-to-ones and developing the team
@@ -66,23 +66,23 @@ During my time at MixRadio I've worked on a variety of systems: initially with J
 The analytics pipeline takes music, navigation and usage events from millions of clients daily and makes them available to many consumers throughout the platform.
 
 * Designed and built many of the components and worked on the project from its initial prototype in MongoDB 
-* Based on a kafka pub-sub architecture
-* Data flows into many parts of the organisation from microservices to map reduce jobs and into the redshift data warehouse
-* Most recently redesigned the data analytics and warehouse service into a clean queue based event architecture to remove service state, improve reliability and reduce the time taken to reach redshift
+* Based on a Kafka pub-sub architecture
+* Data flows into many parts of the organisation from micro-services to map reduce jobs and into the Redshift data-warehouse
+* Most recently redesigned the data analytics and warehouse service into a clean queue based event architecture to remove service state, improve reliability and reduce the time taken to reach Redshift
 
 #### Continuous delivery system
 
-* Helped design and implement MixRadio's second generation continuous delivery system allowing quick and simple deployments of microservices into AWS
+* Helped design and implement MixRadio's second generation continuous delivery system allowing quick and simple deployments of micro-services into AWS
 * Based loosely on the Netflix approach using machine images as the deployable artifact
-* Built the [AMI baking service](https://github.com/mixradio/mr-baker) based on packer, puppet and yum
-* Built the [command line tool](https://github.com/mixradio/klink) that interacts with the deployment services and acts as a frontend to deployments. Written in Go it was cross compiled to various platforms and auto-updates itself when new versions are released
+* Built the [AMI baking service](https://github.com/mixradio/mr-baker) based on Packer, Puppet and Yum
+* Built the [command line tool](https://github.com/mixradio/klink) that interacts with the deployment services and acts as a frontend to deployments. Written in Go, it was cross-compiled to various platforms and auto-updates itself when new versions are released
 * Created the [Clojure service template](https://github.com/mixradio/mr-clojure) that allowed new services to be quickly bootstrapped
 * The whole system allows a new service to be created and deployed into dev and production in under 30 minutes and averages around 40 deployments a day
 
 #### Some other systems worked on
 
 * The authentication, authorization and token management system
-* The homescreen service which recommended mixes and created a feed of music tailored to a user's taste
+* The Homescreen service which recommended mixes and created a feed of music tailored to a user's taste
 * Redesign of a reporting data flow into a distributed queue based system across data centres
 * CRM systems and integration
 
@@ -100,4 +100,4 @@ During my time at Accenture I worked on a number of projects in Java, Javascript
 
 ## Education
 
-* MEng Computer Software Engineering, University of Sheffield 2.1 Hons [2001 - 2005]
+* MEng Computer Software Engineering, University of Sheffield 2:1 Hons [2001 - 2005]
