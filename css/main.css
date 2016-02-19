@@ -5,3 +5,9 @@
 .title a { color: #C9D2F5 !important; }
 
 code { font-weight: normal; }
+
+ul.cvicons { list-style-type: none; margin: 0; }
+ul.cvicons li { display: inline-block; height: 2em; }
+ul.cvicons li a { margin-right: 20px; }
+ul.cvicons li a span { margin-left: 5px; }
+ul.cvicons li a svg { fill: #bd260d; width: 2em; height: 2em; }
