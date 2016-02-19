@@ -55,7 +55,7 @@ During my time at MixRadio I've worked on a variety of systems: initially with J
 #### Key Responsibilities
 * Building Clojure microservices that powered the music platform
 * Designing software, systems and taking responsibility for the overall health of our architecture
-* Monitoring the health of the platform (graphite, logstash, kibana) and responding live issues
+* Monitoring the health of the platform (graphite, logstash, kibana) and responding to live issues
 * Developing and supporting the continuous delivery system
 * Recruitment, conference sponsorship and helping new starters
 * Mentoring, one-to-ones and developing the team
@@ -83,12 +83,13 @@ The analytics pipeline takes music, navigation and usage events from millions of
 
 * The authentication, authorization and token management system
 * The homescreen service which recommended mixes and created a feed of music tailored to a user's taste
-* Re-design of a reporting data flow into a distributed queue based system across data centres
+* Redesign of a reporting data flow into a distributed queue based system across data centres
 * CRM systems and integration
 
 ### Target Harlosh: 2008 - 2011
 
 Working in the R&D department as a Java and frontend developer building a software system that allowed client business analysts to create bespoke insurance and financial systems.
+
 * Java, Spring Core, Spring Web Flow
 * Hibernate with support for multiple databases
 * Javascript, jQuery, HTML, CSS
