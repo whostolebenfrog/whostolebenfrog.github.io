@@ -38,7 +38,7 @@ An enthusiastic Clojure developer with 10 years commercial experience developing
 * Scalable systems and high availability
 * Kafka, queues, asynchronous programming 
 * AWS, EC2, DynamoDB, SQS, EMR, Redshift, IAM
-* Linux, Devlops, Git, scripting, vim, emacs
+* Linux, Devops, Git, scripting, vim, emacs
 
 ## Work experience
 
